@@ -1,0 +1,15 @@
+{
+  "name": "peliculas",
+  "version": "1.0.0",
+  "description": "open movie database",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest mocha"
+  },
+  "keywords": [
+    "test",
+    "development"
+  ],
+  "author": "Natalia MH <nataliamh.88qgmail.com>",
+  "license": "ISC"
+}
