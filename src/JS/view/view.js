@@ -1,9 +1,7 @@
-const container = document.getElementById('movies')
+const container = document.getElementById('movies');
 
-renderInfo = (element) => {
-        // console.log(element.imdbID);
-        return container.innerHTML += 
-        `<div class="accordion col-12" id="accordionExample">
+renderInfo = element => container.innerHTML
+        += `<div class="accordion col-12" id="accordionExample">
                  <div class="card-header" id="x${element.imdbID}" >
                  <h5 class="mb-0">
                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#${element.imdbID}"  aria-controls="${element.imdbID}">
@@ -27,6 +25,4 @@ renderInfo = (element) => {
                  </div>
              </div>
          </div>
-         `
-    }
-
+         `;
