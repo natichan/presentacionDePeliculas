@@ -13,9 +13,9 @@ showInfo = (data) => {
        info.forEach(element => {
            // console.log(element.Title);
            return container.innerHTML += 
-           `<div class="accordion" id="accordionExample">
+           `<div class="accordion col-10" id="accordionExample">
                 <div class="card">
-                    <div class="card-header" id="headingOne">
+                    <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <img src="${element.Poster}" class="rounded-circle firstTitle">${element.Title}                        </button>
