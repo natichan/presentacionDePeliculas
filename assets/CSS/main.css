@@ -12,7 +12,7 @@
 .container{
     background-color: rgba(128, 128, 128, 0.609);
     margin-top: 4%;
-    height: 100vh;
+    height: 150vh;
     border-radius: 1em;
     
 }
@@ -42,7 +42,7 @@ button{
 #movies{
     overflow: scroll;
     overflow-x: hidden;
-    height: 80vh;
+    height: 130vh;
 }
 .card-header{
     background-color: #ffff;
