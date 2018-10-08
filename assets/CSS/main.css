@@ -3,9 +3,7 @@
     height: 4rem;
     border: 4px;
 }
-.img-thumbnail{
-    width: 8em;
-}
+
 .fa-bars{
     color: white;
 }
@@ -14,14 +12,12 @@
     margin-top: 4%;
     height: 150vh;
     border-radius: 1em;
-    
 }
 .header{
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
 }
 .card{
-    margin: 3%;
     padding: 0%;
     background: none;
     border: none;
@@ -46,10 +42,12 @@ button{
 }
 .card-header{
     background-color: #ffff;
-    margin: 2%;
+    margin: 1%;
     border-radius: 20rem;
 }
-
+.moreInfo{
+    background-color: #ffff;
+}
 @media (max-width: 700px) {
     .btn-link{
         font-size: 14px !important;

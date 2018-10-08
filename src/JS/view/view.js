@@ -15,9 +15,15 @@ renderInfo = (element) => {
          </div>
         <div id=${element.imdbID} class="collapse" aria-labelledby="x${element.imdbID}" data-parent="#accordionExample">
                  <div class="card-body">
-                     <img src="${element.Poster}" class="img-thumbnail">
-                     <p>Title: ${element.Title}</p> 
-                     <p>Year: ${element.Year}</p> 
+                 <div class="moreInfo row  mr-0 ml-0 ">
+                        <div class="col-3"> 
+                            <img src="${element.Poster}" class="img-thumbnail">
+                        </div>
+                        <div class="col-9">
+                            <p>Title: ${element.Title}</p> 
+                            <p>Year: ${element.Year}</p> 
+                        </div>
+                     </div>
                  </div>
              </div>
          </div>
