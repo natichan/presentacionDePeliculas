@@ -1,4 +1,4 @@
-renderMovies = () => {
+const renderMovies = () => {
   document.getElementById('movies').style.display = 'block';
 };
 
@@ -7,3 +7,5 @@ getDataMovie().then((data) => {
   const info = data.Search;
   info.forEach((element) => { renderInfo(element); });
 });
+
+renderMovies();

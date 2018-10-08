@@ -1,6 +1,7 @@
 const container = document.getElementById('movies');
 
-renderInfo = element => container.innerHTML
+const renderInfo = (element) => {
+  container.innerHTML
         += `<div class="accordion col-12" id="accordionExample">
                  <div class="card-header" id="x${element.imdbID}" >
                  <h5 class="mb-0">
@@ -26,3 +27,6 @@ renderInfo = element => container.innerHTML
              </div>
          </div>
          `;
+};
+
+renderInfo();
