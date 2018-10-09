@@ -20,9 +20,11 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.2.0",
+    "requirejs-babel": "0.0.9"
   },
-  "env":{
-    "jest":true
+  "env": {
+    "jest": true
   }
+  
 }
