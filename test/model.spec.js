@@ -7,7 +7,7 @@ describe('function getDataMovie()', () => {
     const data = await getDataMovie();
     expect(data).toBeTruthy();
   });
-  test('the fetch fails with an error', async () => {
+  test('el fetch falla con un error', async () => {
     try {
       await getDataMovie();
     } catch (e) {
