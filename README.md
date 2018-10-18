@@ -12,3 +12,6 @@ Interfaz web que consume API de OMDB donde podrás ver la información de las pe
 - JS
 - CSS
 - Jest
+
+### Desarrollado para
+[Laboratoria](https://www.laboratoria.la/)
